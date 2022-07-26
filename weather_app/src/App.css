@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.mainscreen {
+  background-image: url(./components/blue-sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.mainText{
+  color: white;
+  font-size: 38px;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 120px;
+}
+
+.left{
+  position: absolute;
+  top: 5;
+  right: 0;
+  transform: rotate(-90deg);
+}
