@@ -3,11 +3,12 @@
   padding: 0;
   margin: 0;
 }
-
-.mainscreen {
-  background-image: url(./components/blue-sky.jpg);
-  background-repeat: no-repeat;
+.App{
+  background: url(./components/blue-sky.jpg) no-repeat center center fixed;
   background-size: cover;
+}
+.mainscreen {
+  
   width: 100%;
   height: 700px;
   position: relative;
@@ -28,4 +29,20 @@
   top: 5;
   right: 0;
   transform: rotate(-90deg);
+}
+
+.bottomText{
+  color: black;
+  font-size: 38px;
+  text-align: center;
+}
+
+.bottomScreen{
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+}
+
+.spanContainer{
+  display: flex;
+  justify-content: space-around;
 }

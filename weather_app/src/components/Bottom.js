@@ -3,8 +3,15 @@
 
 function Bottom() {
     return (
-        <div>
-            <h1>World</h1>
+        <div className="bottomScreen">
+            <p className="bottomText">Weather Today</p>
+            <div className="spanContainer">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+            </div>
+            
         </div>
     )
 }
